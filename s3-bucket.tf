@@ -6,6 +6,7 @@ module "s3_bucket" {
 
 
   bucket_prefix = "joel"
+  prefix = "joel"
 
   versioning = {
     enabled = true
